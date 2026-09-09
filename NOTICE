@@ -1,0 +1,16 @@
+Goark OpenAPI UI
+Copyright 2026 Goark contributors
+
+Derived from Knife4j, Copyright xiaoymin and Knife4j contributors.
+Upstream: https://github.com/xiaoymin/knife4j
+Release reference: v4.5.0 (030ad003fcad75ebfb523dfb730a540309e2c20d)
+Fork point: 78063054d67aeb9eff057585ed5247b1af989add
+
+The maintained BasicLayout, DataType and EditorShow source files were verified
+unchanged between v4.5.0 and the fork point before Goark modifications.
+Goark changes replace the bootstrap, schema interpretation, request construction
+and active application entry with a single-application OpenAPI 3.2 implementation.
+Historical Java and legacy frontend source remains for upstream provenance and
+is not part of the Goark UI build or distributed runtime assets.
+
+Licensed under Apache License 2.0; see LICENSE.

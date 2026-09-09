@@ -1,0 +1,32 @@
+:root { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif; color: #243247; background: #f4f6f9; }
+body { margin: 0; }
+.BasicLayout { min-height: 100vh; }
+.sider { background: #142235 !important; }
+.brand { color: #fff; padding: 28px 24px; display: flex; flex-direction: column; gap: 6px; }
+.brand strong { font-size: 30px; letter-spacing: -1px; }
+.brand span { font-size: 10px; letter-spacing: 2px; color: #a8b9cf; }
+.menu-controls { padding: 0 16px 20px; display: grid; gap: 12px; }
+.menu-controls .ant-select { width: 100%; }
+.sider .ant-menu { background: #142235; }
+.upstream { padding: 24px; color: #9caec5; font-size: 11px; }
+.header { background: white !important; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #e4e9f0; padding: 0 30px !important; }
+.content { padding: 30px; max-width: 1500px; width: 100%; margin: auto; }
+.content article, .overview { background: white; padding: 32px; border: 1px solid #e5eaf0; border-radius: 10px; }
+h1 { font-size: 28px; margin: 10px 0 18px; color: #172b46; }
+h2 { font-size: 18px; margin: 28px 0 14px; }
+.eyebrow { color: #477bac; font-size: 12px; letter-spacing: 1px; }
+.endpoint { background: #f3f7fc; border: 1px solid #dae6f3; padding: 14px; border-radius: 6px; }
+.description { margin: 18px 0; white-space: pre-wrap; color: #546477; }
+.method-small { display: inline-block; font-size: 10px; min-width: 49px; color: #8ebcff; font-weight: 700; }
+code, pre, .json-editor { font-family: 'Cascadia Code', Consolas, monospace !important; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; padding: 16px; background: #f5f7fa; border-radius: 6px; font-size: 12px; max-height: 600px; overflow: auto; }
+details { margin-top: 16px; }
+summary { cursor: pointer; color: #376f9e; }
+.notice { margin: 16px 0; }
+.downloads { margin: 24px 0; display: flex; gap: 12px; }
+.credentials { margin: 24px 0; }
+.ant-modal-body .ant-input, .credentials .ant-input { margin-top: 12px; }
+.schema-view .ant-tag { margin-left: 8px; }
+.debug-panel { max-width: 950px; }
+.response { margin-top: 28px; }
+@media (max-width: 800px) { .content { padding: 12px; } .content article, .overview { padding: 18px; } .header { padding: 0 12px !important; } h1 { font-size: 23px; } }

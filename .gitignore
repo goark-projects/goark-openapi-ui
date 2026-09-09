@@ -1,4 +1,10 @@
 target/
+node_modules/
+.env
+.env.*
+!.env.example
+coverage/
+release/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
